@@ -9,3 +9,16 @@ VALUES
 (6,6,"Activa","HR-26-DQ-0111","NCE7AMK5B7F506681","Green","Honda Activa Premium",2023,4500,"2022-09-28","Changed Break Pads","M"),
 (7,7,"Ninja","MH-12-BB-1234","ODF8BNL6C8G617792","Lime Green","Kawasaki Ninja 300",2020,5500,"2023-06-30","Changed Break Pads,Water wash,Clutch changed,oil change","F"),
 (8,8,"Himalayan","KL-01-AD-1010","PEG9COM7D9H728801","Dualtone blue white","Royal Enfield Himalayan",2021,8500,"2023-02-14","Chain Replaced,Oil change,New Mirrors,Suspension Adjustment","E");
+
+
+
+INSERT INTO maintenance_record
+(record_ID,vehicle_ID,customer_ID,service_type,date,time,cost_estimated,odometer_reading,customer_requirements,description,est_delivery_date)
+(1,1,1,"Free Service","2023-04-15","10:15:00",NULL,NULL,"Full inspection and testride",NULL,"2023-04-15"),
+(2,2,2,"Paid Service","2023-09-20","17:45:23",NULL,NULL,"Battery change and sparkplug change",NULL,"2023-09-21"),
+(3,3,3,"Free Service","2023-02-14","10:15:00",NULL,NULL,"No N2 filling,water wash,polishing",NULL,"2023-02-15"),
+(4,4,4,"Paid Service","2023-10-15","12:15:00",NULL,NULL,"suspension inspect,change brake pads",NULL,"2023-10-16"),
+(5,5,5,"Paid Service","2023-11-29","11:45:00",NULL,NULL,"verify odometer settings,chain replacement",NULL,"2023-11-30"),
+(6,6,6,"Paid Service","2023-06-29","13:25:00",NULL,NULL,"seat cover adjustment,n2 filling,break pad adjustment",NULL,"2023-06-30"),
+(7,7,7,"Paid Service","2023-11-30","11:55:00",NULL,NULL,"Full inspection,throttle inspection",NULL,"2023-12-04"),
+(8,8,8,"Paid Service","2023-12-01","16:20:00",NULL,NULL,"Suspension inspection,Odometer checking",NULL,"2023-12-04");
