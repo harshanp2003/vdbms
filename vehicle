@@ -1,0 +1,11 @@
+INSERT INTO Vehicles
+(vehicle_ID,customer_ID,vehicle_Name,reg_NO,VIN,color,model,pur_year,kms_driven,prev_service,prev_service_description,fuel_level)
+VALUES
+(1,1,"XPULSE","KA-09-AH-6055","JYA2UJE0X2A050036","Black","Hero Xpulse 2V",2022,3000,"2023-01-01","Water Wash,Oil change","M"),
+(2,2,"JUPITER","KA-09-AA-8055","YJA3VKF1Y3B161147","Blue","TVS Jupiter ZX",2021,3500,"2023-10-05","Water Wash,Oil change,Replaced Spark Plug","F"),
+(3,3,"PULSAR","KA-55-HU-0735","KZB4WLH2Y4C273358","Silver","Bajaj Pulsar ns 200",2023,750,NULL,NULL,"E"),
+(4,4,"DUKE","TN-11-BN-0777","LAC5YMI3Z5D384469","Orange","KTM Duke 250",2023,1500,"2023-04-01","Oil Change,Chain Cleaning","M"),
+(5,5,"R15","PY-01-ME-0505","MBD6ZNJ4A6E495570","Red","Yamaha R15 V4",2022,5000,"2022-12-31","Replaced Spark Plug,Chain Replaced","E"),
+(6,6,"Activa","HR-26-DQ-0111","NCE7AMK5B7F506681","Green","Honda Activa Premium",2023,4500,"2022-09-28","Changed Break Pads","M"),
+(7,7,"Ninja","MH-12-BB-1234","ODF8BNL6C8G617792","Lime Green","Kawasaki Ninja 300",2020,5500,"2023-06-30","Changed Break Pads,Water wash,Clutch changed,oil change","F"),
+(8,8,"Himalayan","KL-01-AD-1010","PEG9COM7D9H728801","Dualtone blue white","Royal Enfield Himalayan",2021,8500,"2023-02-14","Chain Replaced,Oil change,New Mirrors,Suspension Adjustment","E");
